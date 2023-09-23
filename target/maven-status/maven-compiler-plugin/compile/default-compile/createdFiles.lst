@@ -1,0 +1,13 @@
+servlets\SvPeliculas.class
+servlets\SvEliminar.class
+logica\Controladora.class
+logica\Pelicula.class
+persistencia\PeliculaJpaController.class
+persistencia\exceptions\NonexistentEntityException.class
+servlets\SvEditar.class
+logica\Pelicula_.class
+persistencia\exceptions\PreexistingEntityException.class
+persistencia\ControladoraPersistencia.class
+eduardo\crud\peliculas\JakartaRestConfiguration.class
+persistencia\exceptions\IllegalOrphanException.class
+eduardo\crud\peliculas\resources\JakartaEE8Resource.class
