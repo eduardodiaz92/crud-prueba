@@ -49,7 +49,7 @@ public class SvPeliculas extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-//        Integer id = Integer.valueOf(request.getParameter("id"));
+       
         String nombre = request.getParameter("nombre");
         String categoria = request.getParameter("categoria");
         String horario = request.getParameter("horario");

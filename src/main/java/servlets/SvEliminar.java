@@ -15,10 +15,7 @@ public class SvEliminar extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-
-        }
+       
     }
 
     @Override
@@ -30,8 +27,9 @@ public class SvEliminar extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        int id_eliminar = Integer.parseInt(request.getParameter("id_usuario"));
+        int id_eliminar = Integer.parseInt(request.getParameter("id_pelicula"));
         control.borrarPelicula(id_eliminar);
+         response.sendRedirect("index.html");
     }
 
     @Override
