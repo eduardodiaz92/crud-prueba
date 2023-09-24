@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>run</actionName>
+            <packagings>
+                <packaging>war</packaging>
+                <packaging>ear</packaging>
+                <packaging>ejb</packaging>
+            </packagings>
+            <goals>
+                <goal>package</goal>
+            </goals>
+            <properties>
+                <netbeans.deploy>true</netbeans.deploy>
+                <Env.DBPASS>QuXI3zqDsnMM2iZba0D7</Env.DBPASS>
+                <Env.DBUSER>${db_user}</Env.DBUSER>
+                <Env.DBURL>jdbc:postgresql://containers-us-west-163.railway.app:7605/railway</Env.DBURL>
+            </properties>
+        </action>
+    </actions>
